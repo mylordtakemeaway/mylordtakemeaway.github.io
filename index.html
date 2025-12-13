@@ -7,44 +7,103 @@
 
 <style>
   body {
-    <div class="page">
+  margin: 0;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+  background: #0b0f14;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  }
 
-  <!-- HEADER -->
-  <div class="header">
-    <img src="profile.png" alt="Profile image" class="logo">
+  .card {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  text-align: center;
+  margin-top: 40px;
+  }
+
+  .logo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    background: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    border: 1px solid #1f2937;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 10px 0 26px;
+    font-size: 14px;
+    color: #9ca3af;
+  }
+
+  .btn {
+    display: block;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #1f2937;
+    background: #020617;
+    color: #e5e7eb;
+  }
+
+  .spotify { border-left: 4px solid #1db954; }
+  .apple   { border-left: 4px solid #ffffff; }
+  .amazon  { border-left: 4px solid #00a8e1; }
+  .youtube { border-left: 4px solid #ff0000; }
+
+  .footer {
+    margin-top: 28px;
+    font-size: 11px;
+    color: #6b7280;
+  }
+</style>
+</head>
+
+<body>
+  <div class="card">
+
+    <img src="501243879_18043962014625675_931841496422584943_n.jpg" alt="Profile image" class="logo">
+
     <h1>mylordtakemeaway</h1>
     <p>Official Pages</p>
-  </div>
 
-  <!-- CENTER CONTENT -->
-  <div class="content">
-    <div class="card">
+    <a class="btn spotify" href="https://open.spotify.com/artist/4S6NJL9u9ixXxCdTz4xoKW?si=poOQwZ_nSnixI8hBdJFa8g">
+      Spotify
+    </a>
 
-      <a class="btn spotify" href="https://open.spotify.com/artist/YOURSPOTIFY">
-        Spotify
-      </a>
+    <a class="btn apple" href="https://music.apple.com/gb/artist/mylordtakemeaway/1818943146?ls">
+      Apple Music
+    </a>
 
-      <a class="btn apple" href="https://music.apple.com/artist/YOURAPPLEID">
-        Apple Music
-      </a>
+    <a class="btn amazon" href="https://music.amazon.co.uk/artists/B0FC67XFK7?ref=dm_sh_ACdK75uze2v6vVVyLxslAIrMH 
+      ">
+      Amazon Music
+    </a>
 
-      <a class="btn amazon" href="https://music.amazon.com/artists/YOURAMAZONID">
-        Amazon Music
-      </a>
+    <a class="btn youtube" href="https://youtube.com/@mylordtakemeaway?si=0XynokgytyYafgyf">
+      YouTube
+    </a>
 
-      <a class="btn youtube" href="https://youtube.com/@YOURCHANNEL">
-        YouTube
-      </a>
-
+    <div class="footer">
+      © mylordtakemeaway
     </div>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    © mylordtakemeaway
-  </div>
-
-</div>
 
   </div>
 </body>
